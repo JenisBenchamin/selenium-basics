@@ -1,0 +1,8 @@
+<suite name="Testing Suite">
+	<test name="functional">
+		<classes>
+			<class name="day4.session2.GroupA" />
+			<class name="day4.session2.GroupB" />
+		</classes>
+	</test>
+</suite>

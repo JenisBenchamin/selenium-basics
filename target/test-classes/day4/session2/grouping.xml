@@ -1,0 +1,13 @@
+<suite name="Testing Suite">
+	<test name="functional">
+	<groups>
+	<run>
+	<include name="smoke"/>
+	</run>
+	</groups>
+		<classes>
+			<class name="day4.session2.GroupA" />
+			<class name="day4.session2.GroupB" />
+		</classes>
+	</test>
+</suite>

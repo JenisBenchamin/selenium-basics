@@ -1,0 +1,14 @@
+<suite name="Testing Suite" parallel="tests">
+	<test name="functional using chrome">
+	<parameter name="myBrowser" value="chrome"></parameter>
+	<classes>
+			<class name="day4.session2.ParallelExecutionTest" />
+		</classes>
+		</test>
+	<test name="functional using firefox">
+	<parameter name="myBrowser" value="firefox"></parameter>
+		<classes>
+			<class name="day4.session2.ParallelExecutionTest" />
+		</classes>
+	</test>
+</suite>
